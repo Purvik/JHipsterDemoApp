@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.purvik.jhipdemo"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "monolith",
+    "baseName": "testDemo2",
+    "packageName": "com.purvik.jhipdemo",
+    "packageFolder": "com/purvik/jhipdemo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "Yzc1MDYxYWJmOWRkMGYyZmRlMzdmM2Y1YzQxOTA2MDdmODEwZjhlMzhlMTViNWRjNjgwMTQ4OWMwYmVmZjQ3M2MyOGUwODYyNjFlZTc3YjJiYWJhYjU2ZjZjNjJhOTMxMzMyY2ExZWJjYWZjYzk4ZjQxOWZkNGNlMzgyYzE2MjU=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
