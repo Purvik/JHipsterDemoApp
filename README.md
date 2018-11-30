@@ -8,7 +8,7 @@ To start your application in the dev profile, simply run:
     ./gradlew
 
 
-For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
+For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][]. After starting your application you can access APIs using [Swagger-Editor] at location [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 
 ### Doing API-First development using openapi-generator
