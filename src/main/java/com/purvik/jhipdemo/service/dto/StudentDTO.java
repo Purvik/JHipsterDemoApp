@@ -1,7 +1,6 @@
 package com.purvik.jhipdemo.service.dto;
 
-import java.time.LocalDate;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -19,7 +18,7 @@ public class StudentDTO implements Serializable {
     private Long rollNo;
 
     @NotNull
-    private LocalDate birthDate;
+    private String birthDate;
 
     private Long classroomId;
 
@@ -47,11 +46,11 @@ public class StudentDTO implements Serializable {
         this.rollNo = rollNo;
     }
 
-    public LocalDate getBirthDate() {
+    public String getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(LocalDate birthDate) {
+    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
 
